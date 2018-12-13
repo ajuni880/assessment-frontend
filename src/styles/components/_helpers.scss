@@ -1,0 +1,16 @@
+.bold {
+  font-weight: 900;
+}
+.table-row {
+  // margin-right: 1rem;
+  display: flex;
+  max-width: 50%;
+  margin: 0.5rem 0;
+  span {
+    flex: 1;
+    .people-list__data & {
+      margin-right: 0.5rem;
+    }
+  }
+}
+

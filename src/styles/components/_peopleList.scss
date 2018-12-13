@@ -1,0 +1,26 @@
+.people-list {
+  max-height: 75rem;
+  overflow-y: scroll;
+  &__item {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid $lightGrey;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__thumb {
+    width: 7rem;
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  &__summary {
+    margin-left: 2rem;
+    width: calc(100% - 2rem);
+  }
+  &__data {
+    display: flex;
+    justify-content: space-between;
+  }
+}

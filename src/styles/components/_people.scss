@@ -1,0 +1,38 @@
+.people {
+  display: flex;
+  margin: 2rem 0 4rem;
+  padding: 1rem;
+  background: #fff;
+  flex-wrap: wrap;
+  width: 100%;
+  
+  section {
+    flex: 1.5;
+  }
+
+  &__left {
+    flex: 2;
+    position: relative;
+    
+    @media (max-width: 48rem) {
+      display: none;
+    }
+    &--mob {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: #fff;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+
+  &__list {
+    padding: 2rem;
+    li {
+      margin-bottom: 3rem;
+    }
+  }
+}

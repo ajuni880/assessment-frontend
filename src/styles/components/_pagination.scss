@@ -1,0 +1,9 @@
+.pagination {
+  margin-top: 1rem;
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

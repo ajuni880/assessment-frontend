@@ -1,0 +1,28 @@
+.btn {
+  border: 0;
+  outline: none;
+  background: $darkGreen;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 300ms linear;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-pagination {
+  font-size: 2.5rem;
+}
+

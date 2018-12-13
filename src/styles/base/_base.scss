@@ -1,0 +1,39 @@
+html {
+  font-size: 62.5%;
+  font-family: Helvetica,arial, sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+  outline: 0;
+}
+
+body {
+  font-size: 1.4rem;
+  scroll-behavior: smooth;
+  background: $light;
+  color: #524c61;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0.5rem 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

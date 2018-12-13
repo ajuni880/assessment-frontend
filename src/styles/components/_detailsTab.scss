@@ -1,0 +1,26 @@
+.details-tab{
+  margin-top: 2rem;
+
+  &__title {
+    padding: 0.5rem 0;
+    text-align: center;
+    background: $darkGreen;
+    color: #fff;
+  }
+
+  &__info {
+    margin: 1rem 0;
+  }
+}
+
+.flex-items {
+  display: flex;
+  span {
+    margin-right: 1rem;
+    border-right: 1px solid;
+    padding-right: 1rem;
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
