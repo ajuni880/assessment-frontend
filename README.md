@@ -2,8 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Project
 
-React APP - Gnomes data manager.<br>
-This project was part ofan assessment.
+React App - Gnomes data manager.<br>
+This project was part of an assessment.
 [Assessment details](https://www.dropbox.com/sh/gfqisikrhuslbu0/AADUE52toTZKPjM6AHmNrkKMa?dl=0)
 
 ## Getting Started
